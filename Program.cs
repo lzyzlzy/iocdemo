@@ -10,7 +10,7 @@ namespace iocdemo
         {
             var container = new IoCContainerBuilder().UseStartup<Startup>().Build();
             var runner = container.Inject<Runner>();
-            runner.Run();
+            runner.Go();
             Console.ReadLine();
         }
     }

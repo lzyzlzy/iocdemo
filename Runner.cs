@@ -16,7 +16,7 @@ namespace iocdemo
             this._roleService = roleService;
         }
 
-        public void Run()
+        public void Go()
         {
             Console.WriteLine("userservice name:" + _userService.GetServiceName());
             Console.WriteLine("roleservice name:" + _roleService.GetServiceName());
